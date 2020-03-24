@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.contactUsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B-206 Rudra Arcade Next to may flower women's hospital Helmet cross roads Drive in road Ahmedabad 380052"
+                android:layout_margin="@dimen/_15sdp"/>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_below="@+id/cardview_address">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feedback"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textSize="@dimen/_20sdp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Any Suggestion or Message"
+                android:textSize="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/subject_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:hint="Subject"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/rectangle_border_black"/>
+
+            <EditText
+                android:id="@+id/message_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:hint="Mention your feedback here..."
+                android:layout_marginTop="@dimen/_10sdp"
+                android:imeOptions="actionDone"
+                android:lines="8"
+                android:background="@drawable/rectangle_border_black"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Send"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@color/mainColor"/>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</ScrollView>
