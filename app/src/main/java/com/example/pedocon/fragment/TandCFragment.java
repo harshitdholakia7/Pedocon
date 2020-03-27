@@ -13,9 +13,9 @@ import com.example.pedocon.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class termANDconditionFragment extends Fragment {
+public class TandCFragment extends Fragment {
 
-    public termANDconditionFragment() {
+    public TandCFragment() {
         // Required empty public constructor
     }
 
@@ -24,6 +24,6 @@ public class termANDconditionFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_term_and_condition, container, false);
+        return inflater.inflate(R.layout.fragment_t_and_c, container, false);
     }
 }

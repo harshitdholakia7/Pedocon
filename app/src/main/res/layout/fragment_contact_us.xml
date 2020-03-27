@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragment.contactUsFragment">
 
     <RelativeLayout
@@ -22,6 +21,9 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/_10sdp"
                 android:text="B-206 Rudra Arcade Next to may flower women's hospital Helmet cross roads Drive in road Ahmedabad 380052"
                 android:layout_margin="@dimen/_15sdp"/>
 
@@ -36,8 +38,8 @@
             android:layout_below="@+id/cardview_address">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/_30sdp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_50sdp"
             android:layout_marginLeft="@dimen/_10sdp"
             android:layout_marginRight="@dimen/_10sdp"
             android:orientation="vertical">
@@ -80,13 +82,14 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/_40sdp"
                 android:text="Send"
                 android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp"
                 android:layout_marginTop="@dimen/_20sdp"
                 android:background="@color/mainColor"/>
 
         </LinearLayout>
         </androidx.cardview.widget.CardView>
     </RelativeLayout>
-</ScrollView>
+</RelativeLayout>
