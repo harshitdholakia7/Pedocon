@@ -50,6 +50,7 @@ public class homeFragment extends Fragment
         // Inflate the layout for this fragment
         View view=inflater.inflate(R.layout.fragment_home, container, false);
         ButterKnife.bind(this,view);
+
         ArrayList<DeshboardListModel> deshboardListModels = new ArrayList<>();
         sponsorListModels = new ArrayList<>();
 
