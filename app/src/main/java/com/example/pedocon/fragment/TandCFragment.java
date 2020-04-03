@@ -31,6 +31,7 @@ public class TandCFragment extends Fragment
         View view=inflater.inflate(R.layout.fragment_t_and_c, container, false);
         ButterKnife.bind(this,view);
 
+//        webView.loadUrl("http://pedocon2020.com/TermsAndConditions.aspx");
         webView.loadUrl("http://pedocon2020.com/TermsAndConditions.aspx");
 
         return view;
