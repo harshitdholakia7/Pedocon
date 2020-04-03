@@ -7,6 +7,9 @@
     <color name="mainColor">#77B1AE</color>
     <color name="mainColorDark">#41817E</color>
     <color name="white">#FFFFFF</color>
-    <color name="black">#000000</color>
+    <color name="black">#324063</color>
+    <color name="blue">#3873FF</color>
+    <color name="orange">#F38C0A</color>
+    <color name="or">#B7F8DB </color>
 
 </resources>

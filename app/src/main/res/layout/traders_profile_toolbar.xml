@@ -5,10 +5,10 @@ android:layout_height="match_parent"
 android:orientation="vertical"
 android:layout_marginTop="@dimen/_22sdp">
 <TextView
-    android:id="@+id/speakertext"
+    android:id="@+id/tradertext"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="       Speakers Profile"
+    android:text="       Traders Profile"
     android:textStyle="normal"
     android:textSize="@dimen/_18ssp"
     android:textColor="@color/white"

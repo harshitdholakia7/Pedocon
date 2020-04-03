@@ -9,17 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/PendoconTheme">
-        <activity android:name=".Event_Details"></activity>
+        <activity android:name=".Traders_profile"></activity>
+        <activity android:name=".Traders">
+        </activity>
+        <activity android:name=".Event_Details" />
         <activity android:name=".Workshop_profile" />
-        <activity android:name=".Workshop" />
+        <activity android:name=".Workshop">
+        </activity>
         <activity android:name=".Speaker_profile" />
-        <activity android:name=".Speakers" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Speakers">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" >
+
         </activity>
     </application>
 

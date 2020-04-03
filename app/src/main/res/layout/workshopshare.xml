@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/w_image"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:src="@drawable/ic_alert_w"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_25sdp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You are already going!"
+        android:gravity="center"
+        android:textStyle="normal"
+        android:textSize="@dimen/_16ssp"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_10sdp"/>
+</LinearLayout>

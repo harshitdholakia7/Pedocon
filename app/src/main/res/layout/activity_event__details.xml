@@ -19,19 +19,23 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_170sdp"
-        android:layout_alignParentTop="true" />
+        android:layout_height="@dimen/_160sdp"
+        android:layout_alignParentTop="true"
+        android:background="@color/mainColor"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center"
-            android:layout_marginTop="@dimen/_129sdp">
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="@dimen/_75sdp"
-            android:layout_height="@dimen/_75sdp"
-            android:src="@drawable/ic_user_2">
-        </de.hdodenhof.circleimageview.CircleImageView>
+            android:layout_marginTop="@dimen/_119sdp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:src="@drawable/circle"
+                app:civ_border_width="@dimen/_1sdp"
+                app:civ_border_overlay="true"
+                app:civ_circle_background_color="@color/white"
+                app:civ_border_color="@color/orange"/>
         </LinearLayout>
     </RelativeLayout>
     <TextView
@@ -39,6 +43,7 @@
         android:layout_height="wrap_content"
         android:text="Symposium 2020"
         android:textSize="@dimen/_19ssp"
+        android:textStyle="normal"
         android:textColor="@color/black"
         android:gravity="center"
         android:layout_marginTop="@dimen/_10sdp"/>
@@ -48,6 +53,7 @@
         android:text="Description:"
         android:textColor="@color/black"
         android:textSize="@dimen/_18ssp"
+        android:textStyle="normal"
         android:layout_marginBottom="@dimen/_5sdp"
         android:layout_marginTop="@dimen/_8sdp"
         android:layout_marginLeft="@dimen/_7sdp"/>
@@ -58,6 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Business Meet and Events Night 2020"
+            android:textStyle="normal"
             android:textSize="@dimen/_16ssp"
             android:padding="@dimen/_8sdp"/>
     </androidx.cardview.widget.CardView>
@@ -66,6 +73,7 @@
         android:layout_height="wrap_content"
         android:text="Events:"
         android:textColor="@color/black"
+        android:textStyle="normal"
         android:textSize="@dimen/_18ssp"
         android:layout_marginBottom="@dimen/_5sdp"
         android:layout_marginTop="@dimen/_8sdp"
