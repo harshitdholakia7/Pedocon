@@ -13,7 +13,7 @@ import com.example.pedocon.fragment.aboutUsFragment;
 import com.example.pedocon.fragment.contactUsFragment;
 import com.example.pedocon.fragment.homeFragment;
 import com.example.pedocon.fragment.qrCodeFragment;
-import com.example.pedocon.fragment.termANDconditionFragment;
+import com.example.pedocon.fragment.TandCFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import butterknife.BindView;
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity
                     break;
 
                 case R.id.terms_conditions:
-                    fragment=new termANDconditionFragment();
+                    fragment=new TandCFragment();
                     fragmentmethod(fragment);
                     break;
 

@@ -12,4 +12,14 @@
     <color name="orange">#F38C0A</color>
     <color name="or">#B7F8DB </color>
 
+    <color name="colorRed">#DD1818</color>
+    <color name="colorBlue">#4b9cc0</color>
+    <color name="colorGreen">#30CF37</color>
+    <color name="colorWhite">#FDF9F9</color>
+    <color name="colorGrey">#D3CFCF</color>
+    <color name="colorDarkGreen">#4CAF50</color>
+    <color name="colorViolet">#9C27B0</color>
+    <color name="LightGreen">#69F0AE</color>
+    <color name="colorLightGrey">#d3d3d3</color>
+
 </resources>

@@ -2,12 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pedocon">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/PendoconTheme">
         <activity android:name=".Traders_profile"></activity>
         <activity android:name=".Traders">
@@ -17,15 +20,28 @@
         <activity android:name=".Workshop">
         </activity>
         <activity android:name=".Speaker_profile" />
-        <activity android:name=".Speakers">
+        <activity android:name=".Speakers"/>
+
+
+        <activity android:name=".SponsorsProfile"
+            android:parentActivityName=".Sponsors"/>
+
+        <activity android:name=".SplashActivity"
+            android:theme="@style/NoActionBar"/>
+
+        <activity android:name=".FandBPartners"
+            android:theme="@style/NoActionBar"/>
+
+        <activity android:name=".Sponsors"
+            android:theme="@style/PendoconTheme">
+        </activity>
+
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".MainActivity" >
-
         </activity>
     </application>
 
