@@ -10,7 +10,7 @@
         android:layout_height="@dimen/_70sdp"
         android:src="@drawable/ic_alert_w"
         android:layout_gravity="center"
-        android:layout_marginTop="@dimen/_25sdp"/>
+        android:layout_marginTop="@dimen/_26sdp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

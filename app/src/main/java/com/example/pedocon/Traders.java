@@ -33,6 +33,7 @@ public class Traders extends AppCompatActivity {
                 finish();
             }
         });
+        //manan
         tgoing.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

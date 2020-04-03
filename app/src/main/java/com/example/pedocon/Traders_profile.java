@@ -47,6 +47,7 @@ public class Traders_profile extends AppCompatActivity {
             }
         });
     }
+    //manan
     @Override
     public void onBackPressed() {
         Intent intent=new Intent(Traders_profile.this,Traders.class);

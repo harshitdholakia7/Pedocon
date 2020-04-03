@@ -69,7 +69,7 @@
                     android:layout_height="wrap_content"
                     android:text="Parth jadav"
                     android:textStyle="normal"
-                    android:textSize="@dimen/_17ssp"
+                    android:textSize="@dimen/_18ssp"
                     android:textColor="@color/black"/>
                 <TextView
                     android:layout_width="match_parent"

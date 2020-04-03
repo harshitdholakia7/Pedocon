@@ -3,12 +3,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_marginTop="@dimen/_22sdp">
+    android:layout_marginTop="@dimen/_23sdp">
     <TextView
-        android:id="@+id/workshoptext"
+        android:id="@+id/speakertext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="       Workshop Profile"
+        android:text="       Speakers Profile"
         android:textStyle="normal"
         android:textSize="@dimen/_18ssp"
         android:textColor="@color/white"

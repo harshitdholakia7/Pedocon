@@ -28,6 +28,8 @@ public class Event_Details extends AppCompatActivity {
         for (int i = 0; i < IMAGES.length; i++)
             ImagesArray.add(IMAGES[i]);
 
+        //manan
+
         mPager = (ViewPager) findViewById(R.id.pager);
 
         mPager.setAdapter(new Event_SlidingImage_Adapter(Event_Details.this, ImagesArray));
