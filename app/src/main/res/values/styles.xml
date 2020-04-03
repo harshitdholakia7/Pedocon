@@ -15,4 +15,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar"/>
+
+    <style name="Tab_View_ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/mainColorDark</item>
+        <item name="colorAccent">@color/mainColor</item>
+
+    </style>
+
 </resources>
