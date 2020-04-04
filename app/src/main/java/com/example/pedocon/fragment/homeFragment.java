@@ -38,7 +38,6 @@ public class homeFragment extends Fragment
     private ArrayList<Integer> ImagesArray = new ArrayList<>();
     private ArrayList<SponsorImgListModel> sponsorListModels;
 
-
     public homeFragment()
     {
         // Required empty public constructor
@@ -74,7 +73,7 @@ public class homeFragment extends Fragment
         init();
 
         recyclerView_deshbordList.setLayoutManager(new GridLayoutManager(getContext(),3));
-        AdapterRecyclerView deshboardAdapter = new AdapterRecyclerView(deshboardListModels,0);
+        AdapterRecyclerView deshboardAdapter = new AdapterRecyclerView(deshboardListModels,getContext());
         recyclerView_deshbordList.setAdapter(deshboardAdapter);
 
         return view;
@@ -161,7 +160,6 @@ public class homeFragment extends Fragment
             public void onPageScrollStateChanged(int state) {
             }
         });
-
 
     }
 

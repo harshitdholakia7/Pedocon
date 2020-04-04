@@ -3,9 +3,7 @@ package com.example.pedocon.adapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Adapter;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -16,11 +14,10 @@ import com.example.pedocon.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import de.hdodenhof.circleimageview.CircleImageView;
 
 public class SponsorAdapter extends RecyclerView.Adapter<SponsorAdapter.DemoViewHolder> {
 
-    RecyclerClick recyclerClick;
+    private RecyclerClick recyclerClick;
     public void SetUpInterface(RecyclerClick recyclerClick){
         this.recyclerClick=recyclerClick;
 
@@ -53,36 +50,15 @@ public class SponsorAdapter extends RecyclerView.Adapter<SponsorAdapter.DemoView
         return 1;
     }
 
-    public class DemoViewHolder extends RecyclerView.ViewHolder {
-
-        @BindView(R.id.relative_layout)
-        RelativeLayout relativeLayout;
-
+    class DemoViewHolder extends RecyclerView.ViewHolder
+    {
         @BindView(R.id.view)
         TextView btn_view;
-
-        @BindView(R.id.image_circle)
-        CircleImageView profileImageView;
-
-        @BindView(R.id.name)
-        TextView sponsor_name;
-
-        @BindView(R.id.company_name)
-        TextView comapny_name;
-
-        @BindView(R.id.business)
-        TextView business_name;
-
-        @BindView(R.id.mobile)
-        TextView mobile_number;
-
-        @BindView(R.id.chapter_name)
-        TextView chapter_name;
 
         @BindView(R.id.circle_image)
         ImageView SponsorImageView;
 
-        public DemoViewHolder(@NonNull View itemView) {
+        DemoViewHolder(@NonNull View itemView) {
             super(itemView);
             ButterKnife.bind(this,itemView);
         }
